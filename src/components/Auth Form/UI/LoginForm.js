@@ -3,19 +3,19 @@ const userIcon = require("./user.png");
 
 const LoginForm = () => {
     return (
-        <div className="login-form">
-            <div className="user-icon">
+        <div className="form login-form">
+            <div className="icon">
                 <img src={userIcon} alt="User Icon" />
             </div>
             <div className="input-group">
-                <input type="text" placeholder="NAME" />
+                <input type="text" placeholder="USERNAME" />
             </div>
             <div className="input-group">
                 <input type="password" placeholder="PASSWORD" />
             </div>
-            <button className="login-btn">LOGIN</button>
+            <button className="auth-btn">LOGIN</button>
             <div className="form-footer">
-                <button>Forgot Password?</button>
+                <button className="fp-btn">Forgot Password?</button>
             </div>
         </div>
     );
