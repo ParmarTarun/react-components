@@ -1,9 +1,13 @@
 import "./App.css";
+import Components from "./components/Components";
 
 const App = () => {
     return (
         <div className="app">
-            <h3>React Components</h3>
+            <div className="app-header">
+                <h1>React Components</h1>
+            </div>
+            <Components />
         </div>
     );
 };
