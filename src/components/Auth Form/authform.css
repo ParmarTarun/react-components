@@ -1,0 +1,70 @@
+.container {
+    --primary-color: rgba(92, 185, 237, 255);
+    --secondary-color: white;
+    --background-color: rgba(246, 246, 247, 255);
+    min-height: 100vh;
+    background: var(--primary-color);
+    text-align: center;
+    padding: 4rem;
+}
+
+.header {
+    color: white;
+}
+
+.form-wrapper {
+    width: 25%;
+    border: 1px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-radius: 10px;
+    background-color: var(--secondary-color);
+    margin: auto;
+}
+.user-icon {
+    padding: 2rem;
+}
+
+.user-icon img {
+    width: 30%;
+}
+
+.login-form .input-group input {
+    background: rgba(246, 246, 247, 255);
+    border: none;
+    padding: 1rem;
+    text-align: center;
+    margin: 10px 0px;
+    width: 60%;
+    font-size: 20px;
+}
+.login-form .input-group input:focus {
+    outline: none;
+}
+
+.login-btn {
+    padding: 1rem;
+    margin: 15px auto;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    width: 20%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+        rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-form .form-footer {
+    background: var(--background-color);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.login-form .form-footer button {
+    border: none;
+    background: none;
+    font-size: 1rem;
+    cursor: pointer;
+    color: rgb(96, 98, 97);
+}
