@@ -8,7 +8,7 @@ const LoginForm = () => {
                 <img src={userIcon} alt="User Icon" />
             </div>
             <div className="input-group">
-                <input type="text" placeholder="USERNAME" />
+                <input type="email" placeholder="EMAIL" />
             </div>
             <div className="input-group">
                 <input type="password" placeholder="PASSWORD" />

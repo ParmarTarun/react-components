@@ -94,3 +94,17 @@
     cursor: pointer;
     color: rgb(96, 98, 97);
 }
+
+.sso-btns {
+    display: flex;
+    justify-content: space-around;
+}
+.sso-btns button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.sso-btns button img {
+    width: 30%;
+}
