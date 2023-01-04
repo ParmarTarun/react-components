@@ -1,5 +1,4 @@
-import React from "react";
-
+import { Link } from "react-router-dom";
 const Components = () => {
     const components = [
         {
@@ -9,16 +8,23 @@ const Components = () => {
     ];
 
     return (
-        <div className="components-wrapper">
-            {components.map((cmp) => {
-                return (
-                    <div className="component-card">
-                        <h2>{cmp["name"]}</h2>
-                        <a href={cmp["link"]}>Check out</a>
-                    </div>
-                );
-            })}
-        </div>
+        <>
+            <div className="app-header">
+                <h1>React Components</h1>
+            </div>
+            <div className="components-wrapper">
+                {components.map((cmp, i) => {
+                    return (
+                        <div className="component-card" key={i}>
+                            <h2>{cmp["name"]}</h2>
+                            <Link to={cmp["link"]} target="_blank">
+                                Check out
+                            </Link>
+                        </div>
+                    );
+                })}
+            </div>
+        </>
     );
 };
 
