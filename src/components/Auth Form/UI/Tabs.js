@@ -2,6 +2,7 @@ import React from "react";
 
 const Tabs = ({ toggleAuth }) => {
     const handleTab = (e) => {
+        if (e.target.classList.contains("active")) return;
         document
             .querySelectorAll(".tabs button")
             .forEach((el) => el.classList.remove("active"));
