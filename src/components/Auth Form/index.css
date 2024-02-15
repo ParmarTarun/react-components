@@ -1,0 +1,9 @@
+.auth-form {
+  --primary-color: rgba(92, 185, 237, 255);
+  --secondary-color: white;
+  --background-color: rgba(246, 246, 247, 255);
+  min-height: 100vh;
+  background: var(--primary-color);
+  text-align: center;
+  padding: 4rem 0 0 0;
+}
